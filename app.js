@@ -1,4 +1,7 @@
-let scores = [15, 21, 18, 42, 17];
-let deletedScores = scores.splice(0, 3);
-console.log(scores); // [42, 17]
-console.log(deletedScores); // [15, 21, 18]
+const colors = ["Red", "Yellow", "Green", "Blue", "Pink", "Green", "Green"];
+
+console.log(colors.indexOf("Green")); // 2
+
+console.log(colors.indexOf("Green", 4)); // 5
+
+console.log(colors.indexOf("green")); // -1
